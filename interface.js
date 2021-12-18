@@ -22,7 +22,7 @@ let quadrado = event.target;
 
 let postion = quadrado.id;
 
-handleMovr(position);
+handleMove(position);
 updateSquares();
 
 }
