@@ -1,4 +1,4 @@
-let board = ['', '', '', '', '', '', '', '', '']
+let board = ['', '', '', '', '', '', '', '', '']; 
 playerTime = 0;
 let symbols = ['o', 'x'];
 let gameOver = false;
