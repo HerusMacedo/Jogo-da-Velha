@@ -17,7 +17,19 @@ let square = event.target;
 let position = square.id;
 
 
-handleMove(position);
+if(handleMove(position)){
+
+setTimeout(() => {
+
+//// Colocar qual o vencedor//
+
+    alert("O jogo acabou!!! - o vencedor foi");
+
+}, 10);
+
+
+
+};
 updateSquares();
 
 
